@@ -56,9 +56,9 @@ Steps:
 ```
 
 Finetune-FinBERT-with-LoRA-for-financial-sentiment-analysis/
-├── Finetune FinBERT  # Kaggle notebook
-└── README.md                          # Project documentation
-
+├── Finetune FinBERT                                            # Kaggle notebook
+└── README.md                                                   # Project documentation
+└── finetune-finbert-for-financial-sentiment-analysis.ipynb     # Code file
 ```
 
 
