@@ -1,4 +1,4 @@
-# 🧠 Finetune FinBERT with LoRA for Financial Sentiment Analysis
+# 🧠 Finetune FinBERT for Financial Sentiment Analysis
 
 This repository contains the Kaggle notebook used to fine-tune **FinBERT** on the **Financial PhraseBank** dataset, comparing **Full Fine-tuning** and **LoRA (PEFT)** methods for financial sentiment classification.
 
