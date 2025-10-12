@@ -4,17 +4,17 @@ This repository contains the Kaggle notebook used to fine-tune **FinBERT** on th
 
 ---
 
-##  Overview
+##  Repository Structure
 
-The notebook performs:
-- Full fine-tuning of **FinBERT**  
-- Parameter-efficient fine-tuning using **LoRA (PEFT)**  
-- Evaluation and comparison using **Accuracy**, **Precision**, **Recall**, and **F1-score**
+```
 
-All experiments were conducted and can be reproduced directly on **Kaggle**.
+Finetune-FinBERT-with-LoRA-for-financial-sentiment-analysis/
+├── Finetune FinBERT                                            # Kaggle notebook
+└── README.md                                                   # Project documentation
+└── finetune-finbert-for-financial-sentiment-analysis.ipynb     # Code file
+```
 
 ---
-
 ##  Dataset
 
 The dataset used in this project is the **Financial PhraseBank** from Kaggle.
@@ -49,17 +49,6 @@ Steps:
    - Fine-tune **FinBERT** using both **Full Fine-tuning** and **LoRA (PEFT)**  
    - Display and compare metrics (Accuracy, Precision, Recall, F1-score)
 
----
-
-##  Repository Structure
-
-```
-
-Finetune-FinBERT-with-LoRA-for-financial-sentiment-analysis/
-├── Finetune FinBERT                                            # Kaggle notebook
-└── README.md                                                   # Project documentation
-└── finetune-finbert-for-financial-sentiment-analysis.ipynb     # Code file
-```
 
 
 
