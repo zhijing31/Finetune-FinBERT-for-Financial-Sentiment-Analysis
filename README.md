@@ -40,7 +40,7 @@ The model will be automatically downloaded when the notebook is executed.
 
 All experiments can be reproduced directly on Kaggle using the notebook below:
 
-🔗 [**Open Kaggle Notebook**](https://www.kaggle.com/code/chenzhijing3121/finbert-sentiment-analysis)
+🔗 [**Open Kaggle Notebook**](https://www.kaggle.com/code/chenzhijing3121/finbert)
 
 Steps:
 1. Open the notebook on Kaggle.  
