@@ -44,8 +44,7 @@ All experiments can be reproduced directly on Kaggle using the notebook below:
 
 Steps:
 1. Open the notebook on Kaggle.  
-2. Click **“Run All”** to execute all cells.  
-3. The notebook will:  
+2. The notebook will:  
    - Load the **Financial PhraseBank** dataset  
    - Fine-tune **FinBERT** using both **Full Fine-tuning** and **LoRA (PEFT)**  
    - Display and compare metrics (Accuracy, Precision, Recall, F1-score)
