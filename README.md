@@ -1,10 +1,10 @@
-# 🧠 Finetune FinBERT for Financial Sentiment Analysis
+#  Finetune FinBERT for Financial Sentiment Analysis
 
 This repository contains the Kaggle notebook used to fine-tune **FinBERT** on the **Financial PhraseBank** dataset, comparing **Full Fine-tuning** and **LoRA (PEFT)** methods for financial sentiment classification.
 
 ---
 
-## 📘 Overview
+##  Overview
 
 The notebook performs:
 - Full fine-tuning of **FinBERT**  
@@ -15,7 +15,7 @@ All experiments were conducted and can be reproduced directly on **Kaggle**.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The dataset used in this project is the **Financial PhraseBank** from Kaggle.
 
@@ -26,7 +26,7 @@ It will be automatically loaded when running the Kaggle notebook — no manual d
 
 ---
 
-## 🧠 Pretrained Model
+##  Pretrained Model
 
 The pretrained model used is **FinBERT**, available on Hugging Face.
 
@@ -36,7 +36,7 @@ The model will be automatically downloaded when the notebook is executed.
 
 ---
 
-## 🚀 How to Reproduce
+##  How to Reproduce
 
 All experiments can be reproduced directly on Kaggle using the notebook below:
 
@@ -52,7 +52,7 @@ Steps:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 
