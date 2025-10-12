@@ -4,7 +4,7 @@ This repository contains the Kaggle notebook used to fine-tune **FinBERT** on th
 
 ---
 
-##  Repository Structure
+### Repository Structure
 
 ```
 
@@ -15,18 +15,17 @@ Finetune-FinBERT-with-LoRA-for-financial-sentiment-analysis/
 ```
 
 ---
-##  Dataset
+### Dataset
 
 The dataset used in this project is the **Financial PhraseBank** from Kaggle.
 
 🔗 [financialphrasebank](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news/data)
 
-This dataset contains financial news sentences annotated for sentiment (positive, negative, neutral).  
 It will be automatically loaded when running the Kaggle notebook — no manual download is required.
 
 ---
 
-##  Pretrained Model
+### Pretrained Model
 
 The pretrained model used is **FinBERT**, available on Hugging Face.
 
@@ -36,7 +35,7 @@ The model will be automatically downloaded when the notebook is executed.
 
 ---
 
-##  How to Reproduce
+### How to Reproduce
 
 All experiments can be reproduced directly on Kaggle using the notebook below:
 
