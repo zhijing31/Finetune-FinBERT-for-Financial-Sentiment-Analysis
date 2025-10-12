@@ -1,72 +1,66 @@
-# Finetune FinBERT with LoRA for Financial Sentiment Analysis
+# 🧠 Finetune FinBERT with LoRA for Financial Sentiment Analysis
 
-This repository provides code to reproduce fine-tuning experiments using **FinBERT** on the **Financial PhraseBank** dataset.  
-It includes both **full fine-tuning** and **LoRA (PEFT)** versions for comparison.
+This repository contains the Kaggle notebook used to fine-tune **FinBERT** on the **Financial PhraseBank** dataset, comparing **Full Fine-tuning** and **LoRA (PEFT)** methods for financial sentiment classification.
 
 ---
 
-## ⚙️ Setup Instructions
+## 📘 Overview
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/zhijing31/Finetune-FinBERT-with-LoRA-for-financial-sentiment-analysis.git
-cd Finetune-FinBERT-with-LoRA-for-financial-sentiment-analysis
-````
+The notebook performs:
+- Full fine-tuning of **FinBERT**  
+- Parameter-efficient fine-tuning using **LoRA (PEFT)**  
+- Evaluation and comparison using **Accuracy**, **Precision**, **Recall**, and **F1-score**
 
-### 2️⃣ Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
+All experiments were conducted and can be reproduced directly on **Kaggle**.
 
 ---
 
 ## 📊 Dataset
 
-The dataset used is the **Financial PhraseBank** from Kaggle.
-Please download it manually:
+The dataset used in this project is the **Financial PhraseBank** from Kaggle.
 
-🔗 [https://www.kaggle.com/datasets/jannesklaas/financial-phrasebank](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news/data)
+🔗 [financialphrasebank](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news/data)
 
-After downloading, place the file in:
-
-```
-data/
-└── FinancialPhraseBank.csv
-```
+This dataset contains financial news sentences annotated for sentiment (positive, negative, neutral).  
+It will be automatically loaded when running the Kaggle notebook — no manual download is required.
 
 ---
 
 ## 🧠 Pretrained Model
 
-We use the publicly available **FinBERT** model released by **ProsusAI** on Hugging Face:
+The pretrained model used is **FinBERT**, available on Hugging Face.
 
-🔗 [https://huggingface.co/ProsusAI/finbert](https://huggingface.co/ProsusAI/finbert)
+🔗 [ProsusAI/finbert](https://huggingface.co/ProsusAI/finbert)
 
-During fine-tuning, the script will automatically download the model from Hugging Face when running:
-
-```python
-from transformers import AutoModelForSequenceClassification, AutoTokenizer
-model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert")
-tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert")
-```
+The model will be automatically downloaded when the notebook is executed.
 
 ---
 
-## 🚀 Run Experiments
+## 🚀 How to Reproduce
 
-To reproduce the experiments, open the Jupyter Notebook:
+All experiments can be reproduced directly on Kaggle using the notebook below:
 
-```bash
-jupyter notebook finbert-sentiment-analysis.ipynb
+🔗 [**Open Kaggle Notebook**](https://www.kaggle.com/code/chenzhijing3121/finbert-sentiment-analysis)
+
+Steps:
+1. Open the notebook on Kaggle.  
+2. Click **“Run All”** to execute all cells.  
+3. The notebook will:  
+   - Load the **Financial PhraseBank** dataset  
+   - Fine-tune **FinBERT** using both **Full Fine-tuning** and **LoRA (PEFT)**  
+   - Display and compare metrics (Accuracy, Precision, Recall, F1-score)
+
+---
+
+## 📁 Repository Structure
+
 ```
 
-Then:
+Finetune-FinBERT-with-LoRA-for-financial-sentiment-analysis/
+├── finbert-sentiment-analysis.ipynb   # Kaggle notebook
+└── README.md                          # Project documentation
 
-1. Run all cells in order.
-2. The notebook will:
+```
 
-   * Load the Financial PhraseBank dataset
-   * Fine-tune FinBERT using both **full fine-tuning** and **LoRA** methods
-   * Display metrics (Accuracy, Precision, Recall, F1-score)
+
 
