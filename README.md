@@ -75,7 +75,7 @@ finbert-sentiment-analysis/
 
 We use the **Financial PhraseBank** dataset available on Kaggle:
 
-📦 [https://www.kaggle.com/datasets/jannesklaas/financial-phrasebank](https://www.kaggle.com/datasets/jannesklaas/financial-phrasebank)
+📦 [https://www.kaggle.com/datasets/jannesklaas/financial-phrasebank]([https://www.kaggle.com/datasets/jannesklaas/financial-phrasebank](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news/data))
 
 Please **do not upload large datasets or pretrained models**.
 To reproduce results, download the dataset manually or from Kaggle and place it under:
