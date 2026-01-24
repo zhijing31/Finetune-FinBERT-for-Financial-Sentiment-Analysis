@@ -11,6 +11,7 @@ This repository contains the Kaggle notebook used to fine-tune **FinBERT** on th
 Finetune-FinBERT-with-LoRA-for-financial-sentiment-analysis/
 ├── Finetune FinBERT                                            # Kaggle notebook
 └── README.md                                                   # Project documentation
+└── Report.pdf                                                  # Written report
 └── finetune-finbert-for-financial-sentiment-analysis.ipynb     # Code file
 ```
 
